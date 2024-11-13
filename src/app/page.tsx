@@ -16,7 +16,7 @@ I am Javeria, a passionate web developer skilled in creating visually appealing 
     </div>
 
     <div className="w-1/2 flex justify-centre mt-20">
-     <Image  src="/PORTFOLIO1.PNG" alt="IMAGEHIJABI" height={400} width={400 } className="object-cover"/>
+     <Image  src="/PORTFOLIO1.png" alt="IMAGEHIJABI" height={400} width={400 } className="object-cover"/>
     </div>
   </section>
 
