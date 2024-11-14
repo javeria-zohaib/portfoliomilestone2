@@ -2,8 +2,8 @@ import Image from "next/image";
 export default function About(){
     return (
         <>
-        <section className="flex p-10">
-            <div className="w-1/2 mt-4 bg-blue-900 ">
+        <section className="flex flex-col md:flex-row p-4 md:p-10">
+            <div className="md:w-1/2  mb-8 md:mb-0 mt-4 bg-blue-900 p-4 rounded-lg">
                 <h2 className="text-amber-400 font-bold text-lg">About Me</h2>
 
 <p  className="font-semibold">Hello, I am Javeria, a web development enthusiast currently honing my skills through the Governor Sindh Kamran Khan Tessori Initiative for Artificial Intelligence, Web 3.0 and Metaverse. Though I hold a Pharm.D degree, my passion for technology and creativity led me to pursue web development where I am eager to create impactful digital solutions. Freelancing excites me as it allows me to work on diverse projects and continually challenge myself.</p>
@@ -17,7 +17,7 @@ export default function About(){
 
 </p>
  </div>
- <div className="w-1/2 mt-20 ml-60 justify-center" >
+ <div className="md:w-1/2 md:mt-20 ml-60 justify-center flex mt-8" >
     <Image src="/web2.png" alt=" webdevlopment" height={500} width={400}/>
  </div>
         </section>
